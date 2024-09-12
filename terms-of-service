@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Terms of Service</h1>
+    <p>Welcome to our AI Sticker Generator app. By using our app, you agree to the following terms and conditions. Please read them carefully before using the app.</p>
+    
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using our app, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you must discontinue the use of the app immediately.</p>
+
+    <h2>2. Use of the App</h2>
+    <p>You are granted a limited, non-exclusive, non-transferable license to use the app for personal, non-commercial purposes. You agree not to use the app for any unlawful or prohibited activities.</p>
+
+    <h2>3. Intellectual Property</h2>
+    <p>All content, including but not limited to stickers, images, designs, and other assets created by the AI Sticker Generator, are owned by the app or its licensors. You may not use, modify, or distribute any of this content without proper authorization.</p>
+
+    <h2>4. Payments and Subscriptions</h2>
+    <p>Our app may offer subscription plans or in-app purchases. All payments are processed through the applicable app store. Subscription plans may renew automatically unless canceled in accordance with the app store's cancellation policies.</p>
+
+    <h2>5. User-Generated Content</h2>
+    <p>If the app allows you to create or upload content (e.g., custom stickers), you retain ownership of the content you create. However, by using the app, you grant us a non-exclusive, royalty-free, worldwide license to use, display, and share this content in connection with the operation of the app.</p>
+
+    <h2>6. API and Third-Party Services</h2>
+    <p>Our app may interact with third-party services through APIs. You are responsible for ensuring that your use of any third-party content complies with applicable laws and licensing agreements.</p>
+
+    <h2>7. Privacy</h2>
+    <p>Your use of the app is also governed by our <a href="/privacy-policy">Privacy Policy</a>. Please review it to understand how we collect, use, and protect your data.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>We are not liable for any damages arising from your use of the app. The app is provided on an "as-is" basis without warranties of any kind, either express or implied.</p>
+
+    <h2>9. Changes to the Terms</h2>
+    <p>We reserve the right to modify these Terms of Service at any time. Any changes will be posted on this page. Continued use of the app after such changes constitutes your acceptance of the new terms.</p>
+
+    <h2>10. Contact Information</h2>
+    <p>If you have any questions about these Terms of Service, please contact us at <a href="mailto:support@yourapp.com">support@yourapp.com</a>.</p>
+
+    <p>Last updated: [Date]</p>
+</body>
+</html>
