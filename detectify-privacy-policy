@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p>Your privacy is important to us. This Privacy Policy explains how we collect, use, and safeguard your information when you use our AI Image Detection application.</p>
+
+    <h2>1. Data Collection</h2>
+    <p>We do not collect, store, or share any personal information or images processed through our app. The app solely collects performance and crash log data to improve the functionality and reliability of the application. No personal data is included in this log data.</p>
+
+    <h2>2. Third-Party Services</h2>
+    <p>This application uses the SightEngine API for detecting AI-generated images. SightEngine may process images provided by the app for detection purposes. By using our application, you agree to SightEngine’s Privacy Policy, which can be found here:</p>
+    <ul>
+        <li><a href="https://sightengine.com/policies/privacy" target="_blank">SightEngine Privacy Policy</a></li>
+    </ul>
+
+    <h2>3. Security</h2>
+    <p>We are committed to protecting your data. Although we do not store any personal data, we ensure that the app uses secure communication protocols for processing data with third-party services.</p>
+
+    <h2>4. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page, and your continued use of the app constitutes acceptance of those changes.</p>
+
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at [Your Contact Email].</p>
+</body>
+</html>
