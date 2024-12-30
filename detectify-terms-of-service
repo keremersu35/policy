@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+</head>
+<body>
+    <h1>Terms of Service</h1>
+    <p>Welcome to our AI Image Detection application. By using this app, you agree to the following terms and conditions:</p>
+
+    <h2>1. General Usage</h2>
+    <p>The AI Image Detection app is designed to analyze images for AI generation detection. You may use this app solely for lawful purposes and in compliance with these terms.</p>
+
+    <h2>2. Data Collection</h2>
+    <p>We do not collect or use any personal data from our users. The app only collects performance and crash log data to improve the application’s functionality and ensure a seamless user experience. No images or personal information are stored or shared.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>This application utilizes the SightEngine API for AI-generated image detection. By using this app, you also agree to SightEngine’s Terms of Service and Privacy Policy, which can be found at the following links:</p>
+    <ul>
+        <li><a href="https://sightengine.com/policies/terms" target="_blank">SightEngine Terms of Service</a></li>
+        <li><a href="https://sightengine.com/policies/privacy" target="_blank">SightEngine Privacy Policy</a></li>
+    </ul>
+
+    <h2>4. Limitation of Liability</h2>
+    <p>The app is provided on an "as-is" basis without any warranties of any kind. We are not liable for any errors or inaccuracies in the results provided by the AI Image Detection application.</p>
+
+    <h2>5. Modifications to Terms</h2>
+    <p>We reserve the right to modify these terms at any time. Continued use of the app constitutes acceptance of the updated terms.</p>
+
+    <p>If you have any questions about these Terms of Service, please contact us at [Your Contact Email].</p>
+</body>
+</html>
