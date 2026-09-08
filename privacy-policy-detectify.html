@@ -152,7 +152,7 @@
         
         <div class="content">
             <div class="last-updated">
-                Last Updated: January 11, 2025
+                Last Updated: September 8, 2026
             </div>
             
             <div class="section">
@@ -174,6 +174,9 @@
                     <li><strong>Documents:</strong> PDF and DOCX files you upload for analysis (temporarily processed)</li>
                 </ul>
                 
+                <h3>2.1.1 Face Data</h3>
+                <p>Detectify does not perform facial recognition, facial landmark detection, face matching, age estimation, or any other face-specific analysis, and it does not extract, generate, or store facial templates, embeddings, or other biometric identifiers. Some images you submit for AI-generation or deepfake detection may incidentally contain human faces, since identifying manipulated photos of people is one of the app's use cases &mdash; but the app and our backend only ever analyze the image as a whole to produce a single authenticity score. No face-specific data is isolated, retained, or shared separately from the image itself, and the underlying image is not stored once analysis is complete (see Section 6).</p>
+
                 <h3>2.2 Usage Information</h3>
                 <ul>
                     <li>App usage analytics and performance metrics</li>
@@ -197,10 +200,12 @@
                 <div class="api-card">
                     <h4>🔍 SightEngine API (api.sightengine.com)</h4>
                     <p><strong>Purpose:</strong> AI-generated image detection and analysis</p>
+                    <p><strong>Models Used:</strong> Only SightEngine's general-purpose "genai" (AI-generated image) and "deepfake" (manipulated image) classification models. Detectify does not use and does not send data to any of SightEngine's face-specific products, such as profile image validation or age group estimation.</p>
                     <p><strong>Data Sent:</strong> Images you upload for analysis</p>
+                    <p><strong>Face Data:</strong> No facial recognition, facial landmarks, or biometric identifiers are extracted from your images by Detectify or by SightEngine's genai/deepfake models. The image is scored as a whole.</p>
                     <p><strong>Security:</strong> SSL/TLS encryption with certificate pinning</p>
                     <p><strong>Retention:</strong> Images are processed and not stored by SightEngine</p>
-                    <p><strong>Privacy Policy:</strong> <a href="https://sightengine.com/privacy" target="_blank">https://sightengine.com/privacy</a></p>
+                    <p><strong>Privacy Policy:</strong> <a href="https://sightengine.com/policies/privacy" target="_blank">https://sightengine.com/policies/privacy</a></p>
                 </div>
                 
                 <div class="api-card">
@@ -263,6 +268,7 @@
                 <h2>6. Data Retention and Deletion</h2>
                 <ul>
                     <li><strong>Content Analysis:</strong> Submitted images, text, and documents are not permanently stored</li>
+                    <li><strong>Face Data:</strong> Not applicable &mdash; no face-specific data is extracted from your images, so none is retained</li>
                     <li><strong>Analysis Results:</strong> Cached locally on your device and automatically expire</li>
                     <li><strong>Usage Analytics:</strong> Aggregated and anonymized after 90 days</li>
                     <li><strong>Account Data:</strong> Retained while your account is active</li>
@@ -326,7 +332,7 @@
         
         <div class="footer">
             <p>&copy; 2025 Detectify. All rights reserved.</p>
-            <p>This Privacy Policy is effective as of January 11, 2025</p>
+            <p>This Privacy Policy is effective as of September 8, 2026</p>
         </div>
     </div>
 </body>
