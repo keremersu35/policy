@@ -43,12 +43,12 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: October 24, 2026</p>
+    <p class="last-updated">Last Updated: October 25, 2026</p>
 
-    <p>This Privacy Policy explains what information the Mirket app (the "App") uses on iPhone, iPad, Mac and Apple Watch, and what happens to it. In short: Mirket has no accounts and no servers, and everything it measures stays on your devices.</p>
+    <p>This Privacy Policy explains what information the Mirket app (the "App") uses on iPhone, iPad, Mac and Apple Watch, and what happens to it. In short: Mirket has no accounts, everything it measures about your posture stays on your devices, and the only data that leaves them is anonymous usage and crash information and what's needed to manage your purchases.</p>
 
     <div class="important">
-        <strong>Summary:</strong> We do not collect, sell or share personal data. Mirket contains no advertising, no analytics and no tracking. Your posture data is stored on your devices and, if you turn on iCloud, in your own private iCloud account.
+        <strong>Summary:</strong> We do not sell personal data and Mirket contains no advertising and no tracking across other companies' apps. Your posture data (head angles, sessions, routines) is stored on your devices and, if you turn on iCloud, in your own private iCloud account; it is never sent to us or to our service providers. To improve the app we receive anonymous usage statistics and crash reports, which you can turn off in Settings › Share anonymous usage.
     </div>
 
     <h2>1. Head-Motion Data</h2>
@@ -70,19 +70,26 @@
     <p>Cues, reminders and trial reminders are local notifications created on your device. We do not use push notifications and do not receive any notification data.</p>
 
     <h2>4. Purchases</h2>
-    <p>Subscriptions and one-time purchases are processed by Apple through the App Store. We do not receive your name, email, payment details or Apple Account information. The App only checks with Apple whether a purchase is active, using Apple's StoreKit.</p>
+    <p>Subscriptions and one-time purchases are processed by Apple through the App Store. We do not receive your name, email, payment details or Apple Account information. To check whether Mirket Pro is active on your devices, the App uses RevenueCat, a subscription service. RevenueCat receives a random identifier created by the App, your purchase and subscription history from the App Store, and basic device and app information (such as the device model, operating system, app version, country and currency). See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat's Privacy Policy</a>.</p>
 
-    <h2>5. Diagnostics</h2>
-    <p>The App does not send crash or usage data to us. If you have chosen to share analytics with app developers in your device settings, Apple may provide us with anonymous, aggregated crash and performance reports, as described in Apple's privacy policy. Mirket can also collect crash and performance diagnostics on your device (Apple MetricKit); these stay on your device unless you choose to send them to us from Settings › Send diagnostics.</p>
+    <h2>5. Usage Statistics and Crash Reports</h2>
+    <p>The App uses Google Firebase to understand how it is used and to fix problems:</p>
+    <ul>
+        <li><strong>Firebase Analytics</strong> receives app events such as opening the app, finishing onboarding, viewing the upgrade screen, starting a session or starting a trial, together with a random app instance identifier, device and app information and an approximate location derived from your IP address. These events contain no posture measurements.</li>
+        <li><strong>Firebase Crashlytics</strong> receives crash reports: the state of the app and device at the time of a crash and a random installation identifier.</li>
+        <li><strong>Firebase Remote Config</strong> lets us adjust settings such as the length of the free daily allowance without an app update.</li>
+    </ul>
+    <p>You can turn off usage statistics and crash reports at any time in Settings › Share anonymous usage. If you have chosen to share analytics with app developers in your device settings, Apple may also provide us with anonymous, aggregated crash and performance reports. Mirket can collect crash and performance diagnostics on your device (Apple MetricKit); these stay on your device unless you choose to send them to us from Settings › Send diagnostics. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacy and Security in Firebase</a>.</p>
 
     <h2>6. Third Parties</h2>
-    <p>Mirket does not include third-party SDKs, advertising networks or analytics services. The only services involved are Apple's own (App Store, iCloud, Watch Connectivity and the operating system's sensors), which are covered by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.</p>
+    <p>Mirket contains no advertising networks. Besides Apple's own services (App Store, iCloud, Watch Connectivity and the operating system's sensors, covered by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>), the App uses two service providers, only for the purposes described above: Google Firebase (usage statistics, crash reports and remote settings) and RevenueCat (purchase management). They process data on our behalf and may store it on servers outside your country. We do not sell or share personal data for advertising.</p>
 
     <h2>7. Your Choices and Rights</h2>
     <ul>
         <li>You can turn off motion access, notifications or iCloud sync at any time in your device's Settings.</li>
         <li>You can delete all of Mirket's data by deleting the App. If iCloud sync is on, you can also remove Mirket's iCloud data in Settings › [your name] › iCloud › Manage Account Storage.</li>
-        <li>Because we do not hold your data, we cannot view, export or delete it for you; it is under your control on your devices and in your iCloud account.</li>
+        <li>You can turn off usage statistics and crash reports in Settings › Share anonymous usage.</li>
+        <li>Your posture data is under your control on your devices and in your iCloud account; we never receive it. To ask about or delete the usage, crash or purchase records linked to your app's random identifiers, contact us at the address below.</li>
     </ul>
 
     <h2>8. Children</h2>
